@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+main(void)
 {
     /*a script to print fahrenheit-celcius for fahr=0,20...300*/
     float fahr, celsius;
@@ -9,6 +9,9 @@ main()
     upper = 300;
     step = 20;
 
+    printf("F\t C\n");
+    printf("---------\n");
+
     fahr = lower;
     
     while (fahr <= upper){
@@ -16,4 +19,5 @@ main()
         printf("%3.0f %6.1f\n", fahr, celsius);
         fahr = fahr + step;
     }
+    return 0;
 }
