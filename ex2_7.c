@@ -10,7 +10,7 @@ int main(){
 
     unsigned result = invert(x, p, n);
 
-    printf("Original x: %o\n");
-    printf("Modified x: %o\n");
+    printf("Original x: %08x\n");
+    printf("Modified x: %08x\n");
     return 0;
 }

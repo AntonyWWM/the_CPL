@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/LENOVO/desktop/C_scripts/the_CPL",
-      "program": "c:/Users/LENOVO/desktop/C_scripts/the_CPL/build/Debug/outDebug",
+      "cwd": "c:/Users/LENOVO/Desktop/C_scripts/the_CPL",
+      "program": "c:/Users/LENOVO/Desktop/C_scripts/the_CPL/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

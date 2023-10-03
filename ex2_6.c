@@ -13,4 +13,5 @@ int main(){
     unsigned result = setbits(x, p, n, y);
     printf("Original x: %08x\n");
     printf("Modified x: %09x\n");
+    return 0;
 }
