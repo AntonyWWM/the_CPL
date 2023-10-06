@@ -21,9 +21,9 @@ int main(){
             break;
         }
     }
-    printf("digits = ");
+    printf("digits =");
     for(i=0; i<10; i++){
-        printf("%d", ndigit[i]);
+        printf("%d ", ndigit[i]);
     }
     printf("whitespace= %d, other= %d\n", nwhite, nother);
     return 0;
